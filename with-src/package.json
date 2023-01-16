@@ -9,12 +9,12 @@
     "Leizhenpeng"
   ],
   "scripts": {
-    "dev": "plasmo dev",
+    "dev": "plasmo dev --source-path=src/extension",
     "build": "plasmo build",
     "package": "plasmo package"
   },
   "dependencies": {
-    "plasmo": "workspace:*",
+    "plasmo": "lab",
     "react": "18.2.0",
     "react-dom": "18.2.0"
   },
